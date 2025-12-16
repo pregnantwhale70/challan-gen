@@ -134,9 +134,9 @@ export default function TrafficChallanGenerator() {
                 <div className="text-3xl font-bold border-black px-6 py-2 mx-8">
                   {formData.challanNo || '____'}
                 </div>
-                <div className="text-right flex-1 text-xl">
-                  <div>रजि. सं./Regd. No. फा. IT</div>
-                  <div className="mt-1 text-xl">जिला पुलिस/District Police</div>
+                <div className="text-right flex-1 text-sm pr-8 leading-tight">
+                  <div className='mr-11.5'>रजि. सं./Regd. No. </div>
+                  <div>जिला पुलिस/District Police</div>
                 </div>
               </div>
             </div>
